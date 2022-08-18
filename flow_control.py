@@ -22,5 +22,3 @@ while True:
         print(first_num / second_num)
     elif operation == '*':
         print(first_num * second_num)
-
-
