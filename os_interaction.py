@@ -17,7 +17,8 @@ massive = {
                 'env': list(env),
                 'username': username,
     }
-print(massive)
+
+#print(massive)
 
 with open('os_report.json', 'w') as fh:
-	json.dump(massive, fh)
+    json.dump(massive, fh)
