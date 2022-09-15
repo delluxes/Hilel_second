@@ -10,7 +10,6 @@ while True:
         break
     second_num = float(second_num) if second_num.find(".") != -1 else int(second_num)
     operation = input('Choose your item(+,-,/,*):')
-
     if operation not in ('+', '-', '/', '*'):
         print('Only Symbols')
         continue
@@ -22,3 +21,4 @@ while True:
         print(first_num / second_num)
     elif operation == '*':
         print(first_num * second_num)
+
