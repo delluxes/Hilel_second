@@ -13,7 +13,7 @@ first_set2 = {x for x in second_input if x.isdigit()}
 
 len_numbers_1 = first_set - first_set2
 len_numbers_2 = first_set2 - first_set
-lene = len_numbers_1 & len_numbers_2
+lene = len_numbers_1 - len_numbers_2
 
 print(f'Your text: {lene}')
 ############################################
